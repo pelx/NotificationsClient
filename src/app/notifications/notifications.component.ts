@@ -8,7 +8,7 @@ import { MatTableDataSource } from '@angular/material';
 	styleUrls: [ './notifications.component.css' ]
 })
 export class NotificationsComponent implements OnInit {
-	displayedColumns: string[] = [ 'AppointmentDate', 'Name', 'Reason' ];
+	displayedColumns: string[] = [ 'AppointmentDate', 'Name', 'Status', 'Reason' ];
 	dataSource;
 
 	constructor(private service: NotificationService) {}

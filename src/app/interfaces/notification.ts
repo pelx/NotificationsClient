@@ -4,6 +4,7 @@ export interface Notification {
 	notificationId: number;
 	organisationName: string;
 	reason: string;
+	status: string;
 	user: string;
 	userRefId: string;
 }
